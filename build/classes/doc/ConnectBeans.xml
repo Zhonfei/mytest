@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connectBean>
+    <flag>
+        <!--使用数据库标志（oracle/mysql）-->
+        <sqlFlag>mysql</sqlFlag>
+    </flag>
+    
+    <!--oracle连接配置-->
+    <oracle>
+        <driver>oracle.jdbc.driver.OracleDriver</driver>
+        <url>jdbc:oracle:thin:@localhost:1521:cymdb</url>
+        <username>c##alm</username>
+        <password>alm123</password>
+    </oracle>
+    
+    <!--mysql连接配置-->
+    <mysql>
+        <driver>com.mysql.jdbc.Driver</driver>
+        <url>jdbc:mysql://localhost:3306/mydb</url>
+        <username>root</username>
+        <password>zf123</password>
+    </mysql>
+</connectBean>

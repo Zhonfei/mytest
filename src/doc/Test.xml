@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <sum>
+        <parentcoacode>10030501</parentcoacode>
+        <coacode>1003050101,1003050102,1003050103</coacode>
+    </sum>
+    
+    <sum>
+        <parentcoacode>100305</parentcoacode>
+        <coacode>10030501,10030502</coacode>
+    </sum>
+    
+    <sum>
+        <parentcoacode>100303</parentcoacode>
+        <coacode>10030301,10030302</coacode>
+    </sum>
+    
+    <sum>
+        <parentcoacode>1003</parentcoacode>
+        <coacode>100301-100308</coacode>
+        <!--<coacode>100301,100302,100303,100304,100305,100306,100307,100308</coacode>-->
+    </sum>
+    
+</root>
