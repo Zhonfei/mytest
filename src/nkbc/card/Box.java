@@ -16,11 +16,12 @@ import java.util.List;
 public class Box {
     
     public List card = new ArrayList<>();
-
+    public List lastCard = new ArrayList<>();
+    
     public Box() {
         for (int i = 0; i < 4; i++) {
             for (int j = 2; j < 11; j++) {
-                card.add(j);
+                card.add(j+"");
             }
             card.add("J");
             card.add("Q");
