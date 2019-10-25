@@ -28,7 +28,17 @@ public class PlayMain {
         Box box = new Box();
         p1.dealRequest(box);
         showHandleCard(p1,p2,p3,box);
-        
+        p1.dealRequest2(box);
+        //showHandleCard(p1,p2,p3,box);
+        Person p = getFarmPerson(p1,p2,p3);
+        p.dealRequest3(box);
+    }
+    
+    public static Person getFarmPerson(Person p1,Person p2,Person p3){
+        if(p1.isFarm)return p1;
+        if(p2.isFarm)return p2;
+        if(p3.isFarm)return p3;
+        return null;
     }
     
     public static void showHandleCard(Person p1,Person p2,Person p3,Box box){
@@ -97,7 +107,7 @@ public class PlayMain {
            }else if(data[i]==17){
                list.add("L");
            }else{
-               list.add(data[i]);
+               list.add(data[i]+"");
            }
         }
     }
